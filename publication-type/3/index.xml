@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Joshua Popp</title>
-    <link>https://jmp448.github.io/</link>
-      <atom:link href="https://jmp448.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Joshua Popp</description>
+    <title>3 | Joshua Popp</title>
+    <link>https://jmp448.github.io/publication-type/3/</link>
+      <atom:link href="https://jmp448.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 23:12:59 -0400</lastBuildDate>
     <image>
       <url>https://jmp448.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Joshua Popp</title>
-      <link>https://jmp448.github.io/</link>
+      <title>3</title>
+      <link>https://jmp448.github.io/publication-type/3/</link>
     </image>
     
     <item>
@@ -17,22 +17,6 @@
       <link>https://jmp448.github.io/publication/sc-cm/</link>
       <pubDate>Mon, 01 Nov 2021 23:12:59 -0400</pubDate>
       <guid>https://jmp448.github.io/publication/sc-cm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Genetic Modification, Then and Now</title>
-      <link>https://jmp448.github.io/post/gmo-blog/</link>
-      <pubDate>Wed, 21 Apr 2021 23:02:27 -0400</pubDate>
-      <guid>https://jmp448.github.io/post/gmo-blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Politics of a Pandemic</title>
-      <link>https://jmp448.github.io/post/covid-blog/</link>
-      <pubDate>Wed, 21 Apr 2021 22:59:53 -0400</pubDate>
-      <guid>https://jmp448.github.io/post/covid-blog/</guid>
       <description></description>
     </item>
     
