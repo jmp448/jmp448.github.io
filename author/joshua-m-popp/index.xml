@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joshua M Popp | Joshua Popp</title>
+    <link>https://jmp448.github.io/author/joshua-m-popp/</link>
+      <atom:link href="https://jmp448.github.io/author/joshua-m-popp/index.xml" rel="self" type="application/rss+xml" />
+    <description>Joshua M Popp</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 23:24:07 -0400</lastBuildDate>
+    <image>
+      <url>https://jmp448.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Joshua M Popp</title>
+      <link>https://jmp448.github.io/author/joshua-m-popp/</link>
+    </image>
+    
+    <item>
+      <title>Human embryoid bodies as a novel system for genomic studies of functionally diverse cell types</title>
+      <link>https://jmp448.github.io/publication/eb-pilot/</link>
+      <pubDate>Mon, 01 Nov 2021 23:24:07 -0400</pubDate>
+      <guid>https://jmp448.github.io/publication/eb-pilot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single-Cell Sequencing Reveals Lineage-Specific Dynamic Genetic Regulation of Gene Expression During Human Cardiomyocyte Differentiation</title>
+      <link>https://jmp448.github.io/publication/sc-cm/</link>
+      <pubDate>Mon, 01 Nov 2021 23:12:59 -0400</pubDate>
+      <guid>https://jmp448.github.io/publication/sc-cm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
