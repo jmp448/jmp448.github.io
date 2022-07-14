@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="PhD Candidate">
+  <meta name="description" content="In the analysis of single-cell RNA sequencing data, researchers often characterize the variation between cells by estimating a latent variable, such as cell type or pseudotime, representing some aspect of the individual cell&#39;s state. They then test each gene for association with the estimated latent variable. If the same data are used for both of these steps, then standard methods for computing p-values and confidence intervals in the second step will fail to achieve statistical guarantees such as Type 1 error control. Furthermore, approaches such as sample splitting that can be applied to solve similar problems in other settings are not applicable in this context. In this paper, we introduce count splitting, a flexible framework that allows us to carry out valid inference in this setting, for virtually any latent variable estimation technique and inference approach, under a Poisson assumption. We demonstrate the Type 1 error control and power of count splitting in a simulation study, and apply count splitting to a dataset of pluripotent stem cells differentiating to cardiomyocytes.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://jmp448.github.io/publication/">
+  <link rel="alternate" hreflang="en-us" href="https://jmp448.github.io/publication/count-splitting/">
 
   
 
@@ -212,14 +212,12 @@
   
 
   
-  <link rel="alternate" href="/publication/index.xml" type="application/rss+xml" title="Joshua Popp">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://jmp448.github.io/publication/">
+  <link rel="canonical" href="https://jmp448.github.io/publication/count-splitting/">
 
   
   
@@ -235,18 +233,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Joshua Popp">
-  <meta property="og:url" content="https://jmp448.github.io/publication/">
-  <meta property="og:title" content="Publications | Joshua Popp">
-  <meta property="og:description" content="PhD Candidate"><meta property="og:image" content="https://jmp448.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://jmp448.github.io/publication/count-splitting/">
+  <meta property="og:title" content="Inference after latent variable estimation for single-cell RNA sequencing data | Joshua Popp">
+  <meta property="og:description" content="In the analysis of single-cell RNA sequencing data, researchers often characterize the variation between cells by estimating a latent variable, such as cell type or pseudotime, representing some aspect of the individual cell&#39;s state. They then test each gene for association with the estimated latent variable. If the same data are used for both of these steps, then standard methods for computing p-values and confidence intervals in the second step will fail to achieve statistical guarantees such as Type 1 error control. Furthermore, approaches such as sample splitting that can be applied to solve similar problems in other settings are not applicable in this context. In this paper, we introduce count splitting, a flexible framework that allows us to carry out valid inference in this setting, for virtually any latent variable estimation technique and inference approach, under a Poisson assumption. We demonstrate the Type 1 error control and power of count splitting in a simulation study, and apply count splitting to a dataset of pluripotent stem cells differentiating to cardiomyocytes."><meta property="og:image" content="https://jmp448.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://jmp448.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-07-01T23:24:07-04:00">
+    
+      <meta property="article:published_time" content="2021-11-01T23:24:07-04:00">
+    
+    <meta property="article:modified_time" content="2022-07-01T23:24:07-04:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jmp448.github.io/publication/count-splitting/"
+  },
+  "headline": "Inference after latent variable estimation for single-cell RNA sequencing data",
+  
+  "datePublished": "2021-11-01T23:24:07-04:00",
+  "dateModified": "2022-07-01T23:24:07-04:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Anna Neufeld"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Joshua Popp",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jmp448.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "In the analysis of single-cell RNA sequencing data, researchers often characterize the variation between cells by estimating a latent variable, such as cell type or pseudotime, representing some aspect of the individual cell's state. They then test each gene for association with the estimated latent variable. If the same data are used for both of these steps, then standard methods for computing p-values and confidence intervals in the second step will fail to achieve statistical guarantees such as Type 1 error control. Furthermore, approaches such as sample splitting that can be applied to solve similar problems in other settings are not applicable in this context. In this paper, we introduce count splitting, a flexible framework that allows us to carry out valid inference in this setting, for virtually any latent variable estimation technique and inference approach, under a Poisson assumption. We demonstrate the Type 1 error control and power of count splitting in a simulation study, and apply count splitting to a dataset of pluripotent stem cells differentiating to cardiomyocytes."
+}
+</script>
+
+  
 
   
 
@@ -254,10 +295,13 @@
   
 
 
+  
 
 
 
-  <title>Publications | Joshua Popp</title>
+
+
+  <title>Inference after latent variable estimation for single-cell RNA sequencing data | Joshua Popp</title>
 
 </head>
 
@@ -460,119 +504,90 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <div class="pub">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>Inference after latent variable estimation for single-cell RNA sequencing data</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Publications</h1>
-
-  
-
-  
-</div>
 
 
-
-<div class="universal-wrapper">
-  <div class="row">
-    <div class="col-lg-12">
-
-      
-
-      
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-
-      <div class="form-row mb-4">
-        <div class="col-auto">
-          <input type="search" class="filter-search" placeholder="Search..." autocapitalize="off"
-          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
-        </div>
-        <div class="col-auto">
-          <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
-            <option value="*">Type</option>
-            
-            
-            <option value=".pubtype-2">
-              Journal article
-            </option>
-            
-            <option value=".pubtype-3">
-              Preprint
-            </option>
-            
-          </select>
-        </div>
-        <div class="col-auto">
-          <select class="pub-filters form-control form-control-sm" data-filter-group="year">
-            <option value="*">Date</option>
-            
-            
-            
-            <option value=".year-2022">
-              2022
-            </option>
-            
-            <option value=".year-2021">
-              2021
-            </option>
-            
-            
-          </select>
-        </div>
-      </div>
-
-      <div id="container-publications">
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2022">
-          
-            <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+<div class="article-metadata">
 
   
   
-
-  <span class="article-metadata li-cite-author">
+  
+  
+  <div>
     
 
   
   <span >Anna Neufeld</span>, <span >Lucy L. Gao</span>, <span >Joshua Popp</span>, <span >Alexis Battle</span>, <span >Daniela Witten</span>
-  </span>
-  (2022).
-  <a href="/publication/count-splitting/">Inference after latent variable estimation for single-cell RNA sequencing data</a>.
-  arXiv.
+  </div>
   
-  <p>
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    July 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
 
 
 
@@ -587,7 +602,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2207.00554.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2207.00554.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -605,166 +620,254 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.48550/arXiv.2207.00554" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/https://doi.org/10.48550/arXiv.2207.00554" target="_blank" rel="noopener">
   DOI
 </a>
 
 
-</p>
 
-  
+</div>
+
+
   
 </div>
 
-          
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">In the analysis of single-cell RNA sequencing data, researchers often characterize the variation between cells by estimating a latent variable, such as cell type or pseudotime, representing some aspect of the individual cell&rsquo;s state. They then test each gene for association with the estimated latent variable. If the same data are used for both of these steps, then standard methods for computing p-values and confidence intervals in the second step will fail to achieve statistical guarantees such as Type 1 error control. Furthermore, approaches such as sample splitting that can be applied to solve similar problems in other settings are not applicable in this context. In this paper, we introduce count splitting, a flexible framework that allows us to carry out valid inference in this setting, for virtually any latent variable estimation technique and inference approach, under a Poisson assumption. We demonstrate the Type 1 error control and power of count splitting in a simulation study, and apply count splitting to a dataset of pluripotent stem cells differentiating to cardiomyocytes.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
         </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2022">
-          
-            <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  
-  <span >Katherine Rhodes</span>, <span >Kenneth A Barr</span>, <span >Joshua M Popp</span>, <span >Benjamin J Strober</span>, <span >Alexis Battle</span>, <span >Yoav Gilad</span>
-  </span>
-  (2022).
-  <a href="/publication/eb-pilot/">Human embryoid bodies as a novel system for genomic studies of functionally diverse cell types</a>.
-  eLife.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.biorxiv.org/content/10.1101/2021.06.16.448714v1.full.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.7554/eLife.71361" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-</p>
-
-  
-  
-</div>
-
-          
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2021">
-          
-            <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  
-  <span >Reem Elorbany*</span>, <span >Joshua M Popp*</span>, <span >Katherine Rhodes</span>, <span >Benjamin J Strober</span>, <span >Kenneth Barr</span>, <span >Guanghao Qi</span>, <span >Yoav Gilad**</span>, <span >Alexis Battle**</span>
-  </span>
-  (2021).
-  <a href="/publication/sc-cm/">Single-Cell Sequencing Reveals Lineage-Specific Dynamic Genetic Regulation of Gene Expression During Human Cardiomyocyte Differentiation</a>.
-  PLOS Genetics.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.biorxiv.org/content/10.1101/2021.06.03.446970v1.full.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1371/journal.pgen.1009666" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-</p>
-
-  
-  
-</div>
-
-          
-        </div>
-
-        
       </div>
-
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">arXiv</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://jmp448.github.io/publication/count-splitting/&amp;text=Inference%20after%20latent%20variable%20estimation%20for%20single-cell%20RNA%20sequencing%20data" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://jmp448.github.io/publication/count-splitting/&amp;t=Inference%20after%20latent%20variable%20estimation%20for%20single-cell%20RNA%20sequencing%20data" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Inference%20after%20latent%20variable%20estimation%20for%20single-cell%20RNA%20sequencing%20data&amp;body=https://jmp448.github.io/publication/count-splitting/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://jmp448.github.io/publication/count-splitting/&amp;title=Inference%20after%20latent%20variable%20estimation%20for%20single-cell%20RNA%20sequencing%20data" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Inference%20after%20latent%20variable%20estimation%20for%20single-cell%20RNA%20sequencing%20data%20https://jmp448.github.io/publication/count-splitting/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://jmp448.github.io/publication/count-splitting/&amp;title=Inference%20after%20latent%20variable%20estimation%20for%20single-cell%20RNA%20sequencing%20data" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/eb-pilot/">Human embryoid bodies as a novel system for genomic studies of functionally diverse cell types</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
   </div>
 </div>
 
